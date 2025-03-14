@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy package files first to leverage Docker cache
 COPY package*.json ./
 
-npm i
+RUN npm i
 # Install dependencies (use npm ci for exact versions)
 
 # Copy application source code
