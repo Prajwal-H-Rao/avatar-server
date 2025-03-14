@@ -56,7 +56,7 @@ app.post("/create-video", async (req, res) => {
         },
         source_url:
           "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Replace with actual URL
-        webhook: "https://40c1-49-207-248-225.ngrok-free.app/webhook", // Hardcoded webhook URL
+        webhook: "https://avatar-server-oo5b.onrender.com/webhook", // Hardcoded webhook URL
       },
       {
         headers: {
